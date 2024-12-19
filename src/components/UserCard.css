@@ -1,0 +1,43 @@
+.user-container{
+    background-color: rgb(242, 173, 82);
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem;
+    border-radius: 30px;
+}
+#user-img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    border: 2px solid black;
+    box-shadow: 2px 8px black;
+  }
+
+  #user-name{
+    font-size: 5rem;
+    font-weight: 900;
+    text-shadow: 5px 1px 8px black;
+  }
+
+  #user-email{
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  #user-id{
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  #user-desc{
+    font-weight: 900;
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px black;
+  }
+
+
